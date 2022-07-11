@@ -61,6 +61,13 @@ body{
     cursor: pointer;
     border-radius: 12px;
     margin-left: 6px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.input-field button.active {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .wrapper .todo-list {
@@ -114,4 +121,11 @@ body{
     cursor: pointer;
     border-radius: 12px;
     padding: 6px 10px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.footer button.active {
+    opacity: 1;
+    pointer-events: auto;
 }
